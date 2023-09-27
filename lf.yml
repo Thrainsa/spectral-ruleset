@@ -1,0 +1,11 @@
+extends:
+  - spectral:oas
+  - zalando.yml
+
+rules:
+  must-provide-api-audience: "off"
+  must-have-info-x-api-id: "off"
+  must-have-info-contact-email: "off"
+    
+  must-specify-default-response: "off"
+  must-use-problem-json-as-default-response: "off"
